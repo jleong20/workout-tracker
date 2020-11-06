@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout",{
     useFindAndModify: false
 });
 
-app.use(require("./public/api.js"));
+//app.use(require("./public/api.js"));
 
 app.listen(PORT, ()=>{
     console.log(`app running in port ${PORT}`);
